@@ -1,25 +1,29 @@
+// HEADER
 header.header
    .container
+      // HEADER TOP
       .header__top
          nav.menu
             ul.menu__list
                li.menu__item
-                  a.menu__link(href="#!") о студии
+                  a(href="#!") о студии
                li.menu__item
-                  a.menu__link(href="#!") цены
+                  a(href="#!") цены
                li.menu__item
-                  a.menu__link(href="#!") проекты
+                  a(href="#!") проекты
                li.menu__item
-                  a.menu__link(href="#!") контакты
+                  a(href="#!") контакты
          a(href="#!").logo
             img(src="./img/logo.svg" alt="forma studio")
          a(href="tel:+78127777777").phone-link
             svg.svg-phone
                use(href="./img/spriteSvg.svg#svg-phone")
             span +7 (812) 777-77-77
-      h1.headline Архитектура, преображающая пространство
-      p.header__text Создаём пространства будущего: эстетика, комфорт и функциональность в современном дизайне.
-      a(href="#!").header__btn Оставить заявку
+      // HEADER CONTENT
+      .header__content
+         h1.headline Архитектура, преображающая пространство
+         p.header__text Создаём пространства будущего: эстетика, комфорт и функциональность в современном дизайне.
+         a(href="#!").btn Оставить заявку
 
 
 

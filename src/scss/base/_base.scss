@@ -57,6 +57,7 @@ body {
   font-family: var(--font-main);
   padding: 0;
   width: 100%;
+  color: var(--text-color);
 
   -webkit-font-smoothing: antialiased;
 }
@@ -145,17 +146,16 @@ select:-webkit-autofill:focus {
   padding: 0 15px;
 }
 
-.containerXL {
-  width: 100%;
-  max-width: 1530px;
+// typography
+
+.headline {
+  max-width: 835px;
+  margin-bottom: 30px;
+  font-size: 85px;
+  line-height: 1.17;
+  text-transform: uppercase;
 }
 
-.h1 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: normal;
-}
 
 
 

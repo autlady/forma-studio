@@ -1,26 +1,30 @@
 .btn {
-    display: inline-block;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
-    padding: 0 43px;
-    height: 41px;
+    padding: 0 40px;
+    height: 59px;
+    min-width: 260px;
 
-    border-radius: 50px;
     border: none;
 
-    background-color: var(--accent-red);
+    background-color: var(--white-color);
 
-    color: var(--color-white);
-    text-align: center;
+    color: var(--text-color);
+
     font-family: inherit;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 41px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 59px;
+    text-transform: uppercase;
     white-space: nowrap;
 
     transition: background-color 0.2s ease-in;
     cursor: pointer;
 
     &:hover {
-        background-color: lighten($color: #fe3f44, $amount: 5%);;
+        // background-color: lighten($color: #fe3f44, $amount: 5%);;
     }
 }

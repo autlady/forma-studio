@@ -24,6 +24,34 @@
     align-items: center;
 }
 
+.menu__item a {
+    position: relative;
+    font-weight: 300;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: var(--white-color);
+
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        width: 0;
+        height: 1px;
+        background-color: var(--white-color);
+        transition: width 0.3s ease;
+      }
+
+    &:hover::after {
+        width: 100%;
+      }
+
+    // &:hover {
+    //     text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* белая световая аура */
+    // }
+}
+
+
 .logo {
     justify-self: center;
 }
@@ -33,5 +61,23 @@
     display: inline-flex;
     align-items: center;
     column-gap: 10px;
+    font-weight: 300;
+    line-height: 1.5;
+    text-transform: uppercase;
     transition: 0.3s;
+
+
+    &:hover {
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* белая световая аура */
+    }
+}
+
+.header__content {
+    padding-top: 100px;
+}
+
+.header__text {
+    max-width: 757px;
+    margin-bottom: 30px;
+    font-size: 24px;
 }
