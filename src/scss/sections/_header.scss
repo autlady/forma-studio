@@ -24,6 +24,43 @@
     align-items: center;
 }
 
+.menu__btn {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 24px;
+    position: relative;
+
+    @media (max-width: 1300px) {
+        display: flex;
+    }
+}
+
+.menu__btn::after,
+.menu__btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: var(--white-color);
+}
+
+.menu__btn::after {
+    top: 0;
+}
+
+.menu__btn::before {
+    bottom: 0;
+}
+
+.menu__btn span {
+    height: 2px;
+    background-color: var(--white-color);
+    width: 100%;
+}
+
 .menu__item a {
     position: relative;
     font-weight: 300;
