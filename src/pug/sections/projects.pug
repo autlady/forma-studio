@@ -1,4 +1,24 @@
 // PROJECTS
-section.projects
+section.projects.section-box
     .container
-       p проекты
+        h2.projects__title.section__title Наши проекты
+        .projects__slider.swiper
+            .swiper-wrapper
+                .swiper-slide
+                    .project
+                        .project__img
+                           img(src="./img/projects/project01.webp" srcset="./img/projects/project01@2x.webp 2x" alt="project" width="520" height="377")
+                        .project__title
+                           h3 Квартира 55.6 m²
+                           p Для молодой пары юристов
+                        p.project__desc Основная идея этого интерьера — создать светлое, воздушное и уютное пространство. В дизайне повсеместно использованы тёплые цвета и плавные линии, чтобы вызвать ощущение спокойствия и гармонии.
+                        a(href="#!").project__link смотреть
+                .swiper-slide
+                .swiper-slide
+            .swiper-controls
+                .swiper-button-prev
+                    svg.svg-phone
+                        use(href="./img/spriteSvg.svg#svg-left")
+                .swiper-button-next
+                    svg.svg-phone
+                        use(href="./img/spriteSvg.svg#svg-right")

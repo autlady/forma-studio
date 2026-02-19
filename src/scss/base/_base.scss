@@ -146,6 +146,27 @@ select:-webkit-autofill:focus {
   padding: 0 15px;
 }
 
+.section-box {
+  padding-block: 150px;
+
+  @media (max-width: 740px) {
+    padding-block: 50px;
+  }
+}
+
+.section__title {
+  margin-bottom: 55px;
+  font-weight: 300;
+  font-size: 42px;
+  line-height: 1.16;
+  text-transform: uppercase;
+
+  @media (max-width: 740px) {
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+}
+
 // typography
 
 .headline {
@@ -154,6 +175,10 @@ select:-webkit-autofill:focus {
   font-size: 85px;
   line-height: 1.17;
   text-transform: uppercase;
+
+  @media (max-width: 540px) {
+    font-size: 44px;
+  }
 }
 
 
