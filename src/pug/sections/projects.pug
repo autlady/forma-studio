@@ -5,20 +5,68 @@ section.projects.section-box
         .projects__slider.swiper
             .swiper-wrapper
                 .swiper-slide
+                    // project-card
                     .project
                         .project__img
                            img(src="./img/projects/project01.webp" srcset="./img/projects/project01@2x.webp 2x" alt="project" width="520" height="377")
                         .project__title
                            h3 Квартира 55.6 m²
                            p Для молодой пары юристов
-                        p.project__desc Основная идея этого интерьера — создать светлое, воздушное и уютное пространство. В дизайне повсеместно использованы тёплые цвета и плавные линии, чтобы вызвать ощущение спокойствия и гармонии.
-                        a(href="#!").project__link смотреть
+                        p.project__text Основная идея этого интерьера — создать светлое, воздушное и уютное пространство. В дизайне повсеместно использованы тёплые цвета и плавные линии, чтобы вызвать ощущение спокойствия и гармонии.
+                        a(href="#!").btn.btn--more смотреть
                 .swiper-slide
+                    // project-card
+                    .project
+                        .project__img
+                           img(src="./img/projects/project02.webp" srcset="./img/projects/project02@2x.webp 2x" alt="project" width="520" height="377")
+                        .project__title
+                           h3 Жилой дом
+                           p Для семьи врачей
+                        p.project__text Грамотная планировка дома создаёт по‑настоящему комфортное пространство для его хозяев. Открытая терраса словно связующее звено: она изящно объединяет зону бассейна, кухню и жилые зоны в единую гармоничную композицию.
+                        a(href="#!").btn.btn--more смотреть
                 .swiper-slide
-            .swiper-controls
-                .swiper-button-prev
-                    svg.svg-phone
-                        use(href="./img/spriteSvg.svg#svg-left")
-                .swiper-button-next
-                    svg.svg-phone
-                        use(href="./img/spriteSvg.svg#svg-right")
+                    // project-card
+                    .project
+                        .project__img
+                           img(src="./img/projects/project03.webp" srcset="./img/projects/project03@2x.webp 2x" alt="project" width="520" height="377")
+                        .project__title
+                           h3 Загородный дом
+                           p Для семьи предпринимателей
+                        p.project__text На этапе разработки проекта появилась планировка, где открытая зона кухни и гостиной объединена вокруг центрального элемента — камина. Он изящно разделяет пространство, не нарушая его целостности.
+                        a(href="#!").btn.btn--more смотреть
+                .swiper-slide
+                    // project-card
+                    .project
+                        .project__img
+                           img(src="./img/projects/project01.webp" srcset="./img/projects/project01@2x.webp 2x" alt="project" width="520" height="377")
+                        .project__title
+                           h3 Квартира 55.6 m²
+                           p Для молодой пары юристов
+                        p.project__text Основная идея этого интерьера — создать светлое, воздушное и уютное пространство. В дизайне повсеместно использованы тёплые цвета и плавные линии, чтобы вызвать ощущение спокойствия и гармонии.
+                        a(href="#!").btn.btn--more смотреть
+                .swiper-slide
+                    // project-card
+                    .project
+                        .project__img
+                           img(src="./img/projects/project02.webp" srcset="./img/projects/project02@2x.webp 2x" alt="project" width="520" height="377")
+                        .project__title
+                           h3 Жилой дом
+                           p Для семьи врачей
+                        p.project__text Грамотная планировка дома создаёт по‑настоящему комфортное пространство для его хозяев. Открытая терраса словно связующее звено: она изящно объединяет зону бассейна, кухню и жилые зоны в единую гармоничную композицию.
+                        a(href="#!").btn.btn--more смотреть
+                .swiper-slide
+                    // project-card
+                    .project
+                        .project__img
+                           img(src="./img/projects/project03.webp" srcset="./img/projects/project03@2x.webp 2x" alt="project" width="520" height="377")
+                        .project__title
+                           h3 Загородный дом
+                           p Для семьи предпринимателей
+                        p.project__text На этапе разработки проекта появилась планировка, где открытая зона кухни и гостиной объединена вокруг центрального элемента — камина. Он изящно разделяет пространство, не нарушая его целостности.
+                        a(href="#!").btn.btn--more смотреть
+            .slider-arrow.slider-arrow-prev
+                svg.svg-left
+                    use(href="./img/spriteSvg.svg#svg-left")
+            .slider-arrow.slider-arrow-next
+                svg.svg-right
+                    use(href="./img/spriteSvg.svg#svg-right")
